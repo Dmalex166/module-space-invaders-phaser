@@ -28,6 +28,8 @@ const config = {
     },
   },
   scene: GameScene,
+  audio: {
+    disableWebAudio: true,
+  },
 };
 new Phaser.Game(config);
-console.log("does this work");
