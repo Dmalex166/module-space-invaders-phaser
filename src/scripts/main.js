@@ -30,3 +30,4 @@ const config = {
   scene: GameScene,
 };
 new Phaser.Game(config);
+console.log("does this work");
